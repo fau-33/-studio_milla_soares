@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prévia - Studio Milla Soares</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Custom Tailwind CSS Configuration
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#c9bba7", // Tom de bege/dourado suave
+              secondary: "#f5f1ed", // Um off-white suave
+              light: "#ffffff",
+              dark: "#3d3d3d", // Um cinza escuro mais suave
+            },
+            fontFamily: {
+              sans: ['"Poppins"', "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      /* Applying the custom font to the body */
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f5f1ed; /* bg-secondary */
+        color: #3d3d3d; /* text-dark */
+      }
+    </style>
+  </head>
+  <body class="bg-secondary">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-40">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          <!-- Logo -->
+          <div class="flex-shrink-0">
+            <a
+              href="#"
+              class="text-2xl font-bold text-dark hover:text-primary transition-colors"
+            >
+              Studio Milla Soares
+            </a>
+          </div>
+
+          <!-- Navigation -->
+          <nav class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="font-medium text-gray-600 hover:text-primary transition-colors"
+              >Home</a
+            >
+            <a
+              href="#services"
+              class="font-medium text-gray-600 hover:text-primary transition-colors"
+              >Serviços</a
+            >
+            <a
+              href="#about"
+              class="font-medium text-gray-600 hover:text-primary transition-colors"
+              >Sobre</a
+            >
+            <a
+              href="#contact"
+              class="font-medium text-gray-600 hover:text-primary transition-colors"
+              >Contato</a
+            >
+          </nav>
+          <div class="md:hidden">
+            <button class="text-dark focus:outline-none">
+              <i class="fas fa-bars text-2xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <!-- Hero Section -->
+      <section
+        id="home"
+        class="text-center bg-cover bg-center py-20 md:py-32 rounded-lg shadow-lg"
+        style="
+          background-image: url('http://googleusercontent.com/file_content/8');
+        "
+      >
+        <div class="bg-black bg-opacity-40 p-8 rounded-md inline-block">
+          <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">
+            Realce sua Beleza Natural
+          </h1>
+          <p class="text-lg md:text-xl text-white mb-8">
+            Técnicas avançadas para um resultado perfeito.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="#services"
+              class="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-primary/90 transition-transform transform hover:scale-105 inline-block"
+            >
+              Nossos Serviços
+            </a>
+            <a
+              href="https://grass-distance-8bc.notion.site/Combo-Beauty-2145a226f85980da8ed7edabb6c1053e"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-white text-primary font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-transform transform hover:scale-105 inline-block"
+            >
+              Ver Combos Beauty
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="py-16">
+        <h2 class="text-4xl font-bold text-center mb-10">Nossos Serviços</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Service Card 1: Brow Lamination -->
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
+          >
+            <img
+              src="http://googleusercontent.com/file_content/9"
+              alt="Serviço de Brow Lamination"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Brow Lamination</h3>
+              <p class="text-gray-600 mb-4 text-sm">
+                Técnica que deixa os fios alinhados e volumosos, preenchendo
+                falhas.
+              </p>
+              <div class="text-right mt-4">
+                <span class="text-2xl font-bold text-primary">R$ 120,00</span>
+              </div>
+            </div>
+          </div>
+          <!-- Service Card 2: Micropigmentação -->
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
+          >
+            <img
+              src="http://googleusercontent.com/file_content/7"
+              alt="Serviço de Micropigmentação"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Micropigmentação</h3>
+              <p class="text-gray-600 mb-4 text-sm">
+                Design e preenchimento de sobrancelhas e lábios com alta
+                precisão.
+              </p>
+              <div class="text-right mt-4">
+                <span class="text-2xl font-bold text-primary">R$ 399,90</span>
+              </div>
+            </div>
+          </div>
+          <!-- Service Card 3: Técnica de Cílios -->
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
+          >
+            <img
+              src="http://googleusercontent.com/file_content/3"
+              alt="Serviço de Técnica de Cílios"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Técnica de Cílios</h3>
+              <p class="text-gray-600 mb-4 text-sm">
+                Técnicas clássico e híbrido para quem gosta de naturalidade.
+              </p>
+              <div class="text-right mt-4">
+                <span class="text-2xl font-bold text-primary">R$ 129,90</span>
+              </div>
+            </div>
+          </div>
+          <!-- Service Card 4: Spa Labial -->
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
+          >
+            <img
+              src="http://googleusercontent.com/file_content/2"
+              alt="Serviço de Spa Labial"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Spa Labial</h3>
+              <p class="text-gray-600 mb-4 text-sm">
+                Esfoliação e hidratação que remove células mortas e evita o
+                ressecamento.
+              </p>
+              <div class="text-right mt-4">
+                <span class="text-2xl font-bold text-primary">R$ 47,90</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="py-16">
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+          <div class="text-left">
+            <h2 class="text-3xl font-bold text-dark mb-4">Sobre o Studio</h2>
+            <p class="text-gray-600 leading-relaxed mb-4">
+              Oferecemos um serviço personalizado para garantir que cada cliente
+              receba o look desejado, respeitando a saúde natural dos seus
+              cílios e pele.
+            </p>
+            <p class="text-gray-600 leading-relaxed">
+              Nosso objetivo é proporcionar uma experiência relaxante e
+              satisfatória, onde cada detalhe é cuidadosamente considerado.
+              Nossas profissionais são altamente qualificadas e utilizam
+              produtos de alta qualidade para assegurar resultados duradouros.
+            </p>
+          </div>
+          <div class="flex justify-center">
+            <img
+              src="http://googleusercontent.com/file_content/5"
+              alt="Ambiente do Studio"
+              class="rounded-lg shadow-xl w-full max-w-sm h-auto object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-16 bg-white rounded-lg shadow-lg p-8">
+        <div class="max-w-5xl mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-10">Fale Conosco</h2>
+          <div class="flex justify-center">
+            <!-- Contact Info -->
+            <div class="space-y-8 flex flex-col items-center">
+              <a
+                href="https://instagram.com/millasoares.studio"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center space-x-4 text-dark hover:text-primary transition-colors text-xl"
+              >
+                <i
+                  class="fab fa-instagram text-primary text-3xl w-8 text-center"
+                ></i>
+                <span>@millasoares.studio</span>
+              </a>
+              <a
+                href="https://tiktok.com/@millasoares.studio"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center space-x-4 text-dark hover:text-primary transition-colors text-xl"
+              >
+                <i
+                  class="fab fa-tiktok text-primary text-3xl w-8 text-center"
+                ></i>
+                <span>@millasoares.studio</span>
+              </a>
+              <div class="flex items-center space-x-4 text-xl">
+                <i
+                  class="fas fa-phone text-primary text-3xl w-8 text-center"
+                ></i>
+                <span>(11) 98765-4321</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- WhatsApp Icon -->
+    <a
+      href="https://wa.me/5511987654321?text=Olá!%20Gostaria%20de%20mais%20informações."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="fixed bottom-6 right-6 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center text-white shadow-lg transform hover:scale-110 transition-transform z-50"
+      aria-label="Fale conosco pelo WhatsApp"
+    >
+      <i class="fab fa-whatsapp text-4xl"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-12">
+      <div class="container mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center">
+        <p>&copy; 2025 Studio Milla Soares. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
