@@ -3,7 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prévia - Studio Milla Soares</title>
+    <title>
+      Studio Milla Soares - Micropigmentação, Cílios e Sobrancelhas em Salvador
+    </title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Studio Milla Soares em Salvador - Especialistas em micropigmentação, extensão de cílios, brow lamination e spa labial. Realce sua beleza natural com técnicas avançadas e profissionais qualificadas."
+    />
+    <meta
+      name="keywords"
+      content="micropigmentação Salvador, extensão cílios Salvador, brow lamination, spa labial, sobrancelhas Salvador, beleza Salvador, estética Salvador"
+    />
+    <meta name="author" content="Studio Milla Soares" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://studiomillasoares.vercel.app/" />
+    <meta
+      property="og:title"
+      content="Studio Milla Soares - Micropigmentação e Cílios em Salvador"
+    />
+    <meta
+      property="og:description"
+      content="Realce sua beleza natural com nossos serviços de micropigmentação, extensão de cílios e brow lamination em Salvador."
+    />
+    <meta
+      property="og:image"
+      content="https://studiomillasoares.vercel.app/assets/milla.jpeg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://studiomillasoares.vercel.app/"
+    />
+    <meta
+      property="twitter:title"
+      content="Studio Milla Soares - Micropigmentação e Cílios em Salvador"
+    />
+    <meta
+      property="twitter:description"
+      content="Realce sua beleza natural com nossos serviços de micropigmentação, extensão de cílios e brow lamination em Salvador."
+    />
+    <meta
+      property="twitter:image"
+      content="https://studiomillasoares.vercel.app/assets/milla.jpeg"
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://studiomillasoares.vercel.app/" />
 
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,6 +73,35 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "Studio Milla Soares",
+        "description": "Estúdio de beleza especializado em micropigmentação, extensão de cílios, brow lamination e spa labial em Salvador",
+        "url": "https://studiomillasoares.vercel.app/",
+        "telephone": "+55-71-98622-7745",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Salvador",
+          "addressRegion": "BA",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://instagram.com/millasoares.studio",
+          "https://tiktok.com/@millasoares.studio"
+        ],
+        "priceRange": "$$",
+        "serviceType": [
+          "Micropigmentação",
+          "Extensão de Cílios",
+          "Brow Lamination",
+          "Spa Labial"
+        ]
+      }
+    </script>
 
     <script>
       // Custom Tailwind CSS Configuration
@@ -58,7 +139,7 @@
           <!-- Logo -->
           <div class="flex-shrink-0">
             <a
-              href="#"
+              href="#home"
               class="text-2xl font-bold text-dark hover:text-primary transition-colors"
             >
               Studio Milla Soares
@@ -81,6 +162,11 @@
               href="#about"
               class="font-medium text-gray-600 hover:text-primary transition-colors"
               >Sobre</a
+            >
+            <a
+              href="#blog"
+              class="font-medium text-gray-600 hover:text-primary transition-colors"
+              >Dicas</a
             >
             <a
               href="#contact"
@@ -109,10 +195,11 @@
       >
         <div class="bg-black bg-opacity-40 p-8 rounded-md inline-block">
           <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">
-            Realce sua Beleza Natural
+            Realce sua Beleza Natural em Salvador
           </h1>
           <p class="text-lg md:text-xl text-white mb-8">
-            Técnicas avançadas para um resultado perfeito.
+            Micropigmentação, extensão de cílios e técnicas avançadas para um
+            resultado perfeito.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -135,7 +222,13 @@
 
       <!-- Services Section -->
       <section id="services" class="py-16">
-        <h2 class="text-4xl font-bold text-center mb-10">Nossos Serviços</h2>
+        <h2 class="text-4xl font-bold text-center mb-4">
+          Nossos Serviços Especializados
+        </h2>
+        <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+          Oferecemos os melhores tratamentos de beleza em Salvador com técnicas
+          modernas e profissionais qualificadas
+        </p>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <!-- Service Card 1: Brow Lamination -->
           <div
@@ -143,17 +236,17 @@
           >
             <img
               src="./assets/brown.png"
-              alt="Serviço de Brow Lamination"
+              alt="Brow Lamination em Salvador - Sobrancelhas alinhadas e volumosas"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Brow Lamination</h3>
               <p class="text-gray-600 mb-4 text-sm">
-                Técnica que deixa os fios alinhados e volumosos, preenchendo
-                falhas.
+                Técnica que deixa os fios das sobrancelhas alinhados e
+                volumosos, preenchendo falhas naturalmente.
               </p>
               <div class="text-right mt-4">
-                <span class="text-lg font-semibold text-gray-700"
+                <span class="text-lg font-semibold text-primary"
                   >Consulte o valor</span
                 >
               </div>
@@ -165,17 +258,17 @@
           >
             <img
               src="./assets/micropigmentacao.png"
-              alt="Serviço de Micropigmentação"
+              alt="Micropigmentação de sobrancelhas e lábios em Salvador"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Micropigmentação</h3>
               <p class="text-gray-600 mb-4 text-sm">
                 Design e preenchimento de sobrancelhas e lábios com alta
-                precisão.
+                precisão e durabilidade.
               </p>
               <div class="text-right mt-4">
-                <span class="text-lg font-semibold text-gray-700"
+                <span class="text-lg font-semibold text-primary"
                   >Consulte o valor</span
                 >
               </div>
@@ -187,16 +280,17 @@
           >
             <img
               src="./assets/tecnica_cilios.jpg"
-              alt="Serviço de Técnica de Cílios"
+              alt="Extensão de cílios clássico e híbrido em Salvador"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
-              <h3 class="text-xl font-bold mb-2">Técnica de Cílios</h3>
+              <h3 class="text-xl font-bold mb-2">Extensão de Cílios</h3>
               <p class="text-gray-600 mb-4 text-sm">
-                Técnicas clássico e híbrido para quem gosta de naturalidade.
+                Técnicas clássico e híbrido para quem busca naturalidade e
+                volume perfeito.
               </p>
               <div class="text-right mt-4">
-                <span class="text-lg font-semibold text-gray-700"
+                <span class="text-lg font-semibold text-primary"
                   >Consulte o valor</span
                 >
               </div>
@@ -208,17 +302,17 @@
           >
             <img
               src="./assets/spa_labial.jpg"
-              alt="Serviço de Spa Labial"
+              alt="Spa Labial - Tratamento de hidratação e esfoliação dos lábios"
               class="w-full h-64 object-cover"
             />
             <div class="p-6">
               <h3 class="text-xl font-bold mb-2">Spa Labial</h3>
               <p class="text-gray-600 mb-4 text-sm">
-                Esfoliação e hidratação que remove células mortas e evita o
-                ressecamento.
+                Esfoliação e hidratação profunda que remove células mortas e
+                previne o ressecamento.
               </p>
               <div class="text-right mt-4">
-                <span class="text-lg font-semibold text-gray-700"
+                <span class="text-lg font-semibold text-primary"
                   >Consulte o valor</span
                 >
               </div>
@@ -231,25 +325,88 @@
       <section id="about" class="py-16">
         <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div class="text-left">
-            <h2 class="text-3xl font-bold text-dark mb-4">Sobre o Studio</h2>
+            <h2 class="text-3xl font-bold text-dark mb-4">
+              Sobre o Studio Milla Soares
+            </h2>
             <p class="text-gray-600 leading-relaxed mb-4">
-              Oferecemos um serviço personalizado para garantir que cada cliente
-              receba o look desejado, respeitando a saúde natural dos seus
-              cílios e pele.
+              Localizado em Salvador, oferecemos um serviço personalizado para
+              garantir que cada cliente receba o look desejado, respeitando a
+              saúde natural dos seus cílios e pele.
             </p>
-            <p class="text-gray-600 leading-relaxed">
+            <p class="text-gray-600 leading-relaxed mb-4">
               Nosso objetivo é proporcionar uma experiência relaxante e
               satisfatória, onde cada detalhe é cuidadosamente considerado.
               Nossas profissionais são altamente qualificadas e utilizam
               produtos de alta qualidade para assegurar resultados duradouros.
             </p>
+            <p class="text-gray-600 leading-relaxed">
+              <strong>Especialidades:</strong> Micropigmentação de sobrancelhas
+              e lábios, extensão de cílios clássico e híbrido, brow lamination e
+              tratamentos faciais especializados.
+            </p>
           </div>
           <div class="flex justify-center">
             <img
               src="./assets/milla.jpeg"
-              alt="Ambiente do Studio"
+              alt="Milla Soares - Profissional especializada em micropigmentação e cílios"
               class="rounded-lg shadow-xl w-full max-w-sm h-auto object-cover"
             />
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog/Tips Section -->
+      <section id="blog" class="py-16 bg-white rounded-lg shadow-lg p-8 mb-8">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-4xl font-bold text-center mb-4">Dicas de Beleza</h2>
+          <p class="text-center text-gray-600 mb-10">
+            Confira nossas dicas profissionais para cuidar da sua beleza
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Tip 1 -->
+            <article class="bg-secondary p-6 rounded-lg">
+              <h3 class="text-xl font-bold mb-3 text-dark">
+                Cuidados Após a Micropigmentação
+              </h3>
+              <p class="text-gray-600 text-sm mb-4">
+                Nos primeiros 7 dias após o procedimento, evite molhar a região,
+                não use maquiagem e aplique a pomada cicatrizante conforme
+                orientação. Isso garante a fixação perfeita do pigmento.
+              </p>
+              <div class="text-primary font-semibold text-sm">
+                <i class="fas fa-clock mr-1"></i> Leitura: 2 min
+              </div>
+            </article>
+
+            <!-- Tip 2 -->
+            <article class="bg-secondary p-6 rounded-lg">
+              <h3 class="text-xl font-bold mb-3 text-dark">
+                Como Escolher a Técnica de Cílios Ideal
+              </h3>
+              <p class="text-gray-600 text-sm mb-4">
+                Cílios clássicos são perfeitos para quem busca naturalidade,
+                enquanto o híbrido oferece mais volume. A escolha depende do
+                formato dos seus olhos e do resultado desejado.
+              </p>
+              <div class="text-primary font-semibold text-sm">
+                <i class="fas fa-clock mr-1"></i> Leitura: 3 min
+              </div>
+            </article>
+
+            <!-- Tip 3 -->
+            <article class="bg-secondary p-6 rounded-lg">
+              <h3 class="text-xl font-bold mb-3 text-dark">
+                Manutenção das Sobrancelhas
+              </h3>
+              <p class="text-gray-600 text-sm mb-4">
+                Para manter suas sobrancelhas sempre perfeitas, faça a
+                manutenção a cada 15-20 dias. Use produtos específicos e evite
+                arrancar os fios em casa para não desalinhar o design.
+              </p>
+              <div class="text-primary font-semibold text-sm">
+                <i class="fas fa-clock mr-1"></i> Leitura: 2 min
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -257,7 +414,11 @@
       <!-- Contact Section -->
       <section id="contact" class="py-16 bg-white rounded-lg shadow-lg p-8">
         <div class="max-w-5xl mx-auto">
-          <h2 class="text-4xl font-bold text-center mb-10">Fale Conosco</h2>
+          <h2 class="text-4xl font-bold text-center mb-4">Fale Conosco</h2>
+          <p class="text-center text-gray-600 mb-10">
+            Entre em contato e agende seu horário. Estamos em Salvador para
+            cuidar da sua beleza!
+          </p>
           <div class="flex justify-center">
             <!-- Contact Info -->
             <div class="space-y-8 flex flex-col items-center">
@@ -266,6 +427,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="flex items-center space-x-4 text-dark hover:text-primary transition-colors text-xl"
+                aria-label="Siga-nos no Instagram"
               >
                 <i
                   class="fab fa-instagram text-primary text-3xl w-8 text-center"
@@ -277,6 +439,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="flex items-center space-x-4 text-dark hover:text-primary transition-colors text-xl"
+                aria-label="Siga-nos no TikTok"
               >
                 <i
                   class="fab fa-tiktok text-primary text-3xl w-8 text-center"
@@ -289,6 +452,12 @@
                 ></i>
                 <span>(71) 98622-7745</span>
               </div>
+              <div class="flex items-center space-x-4 text-xl">
+                <i
+                  class="fas fa-map-marker-alt text-primary text-3xl w-8 text-center"
+                ></i>
+                <span>Salvador - BA</span>
+              </div>
             </div>
           </div>
         </div>
@@ -297,19 +466,67 @@
 
     <!-- WhatsApp Icon -->
     <a
-      href="https://wa.me/5511987654321?text=Olá!%20Gostaria%20de%20mais%20informações."
+      href="https://wa.me/5571986227745?text=Olá!%20Gostaria%20de%20agendar%20um%20horário%20e%20saber%20mais%20sobre%20os%20serviços%20de%20micropigmentação%20e%20cílios."
       target="_blank"
       rel="noopener noreferrer"
       class="fixed bottom-6 right-6 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center text-white shadow-lg transform hover:scale-110 transition-transform z-50"
-      aria-label="Fale conosco pelo WhatsApp"
+      aria-label="Agende pelo WhatsApp - Studio Milla Soares"
     >
       <i class="fab fa-whatsapp text-4xl"></i>
     </a>
 
     <!-- Footer -->
     <footer class="bg-dark text-white mt-12">
-      <div class="container mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center">
-        <p>&copy; 2025 Studio Milla Soares. Desenvolvido por Flávio Félix</p>
+      <div class="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left"
+        >
+          <div>
+            <h3 class="text-xl font-bold mb-4">Studio Milla Soares</h3>
+            <p class="text-gray-300">
+              Especialistas em micropigmentação, extensão de cílios e
+              tratamentos de beleza em Salvador.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Serviços</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Micropigmentação</li>
+              <li>Extensão de Cílios</li>
+              <li>Brow Lamination</li>
+              <li>Spa Labial</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold mb-4">Contato</h3>
+            <div class="space-y-2 text-gray-300">
+              <p>(71) 98622-7745</p>
+              <p>Salvador - BA</p>
+              <div class="flex justify-center md:justify-start space-x-4 mt-4">
+                <a
+                  href="https://instagram.com/millasoares.studio"
+                  target="_blank"
+                  class="text-primary hover:text-white"
+                >
+                  <i class="fab fa-instagram text-2xl"></i>
+                </a>
+                <a
+                  href="https://tiktok.com/@millasoares.studio"
+                  target="_blank"
+                  class="text-primary hover:text-white"
+                >
+                  <i class="fab fa-tiktok text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-700 mt-8 pt-6 text-center">
+          <p>
+            &copy; 2025 Studio Milla Soares. Todos os direitos reservados.
+            Desenvolvido por Flávio Félix
+          </p>
+        </div>
       </div>
     </footer>
   </body>
