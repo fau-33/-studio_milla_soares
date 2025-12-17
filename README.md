@@ -32,19 +32,19 @@ O projeto foi construído utilizando as melhores práticas de desenvolvimento we
 
 ### Desktop
 
-![Desktop Hero](assets/screenshots/desktop_hero.png)
-![Desktop Services](assets/screenshots/desktop_services.png)
+![Desktop Hero](./assets/screenshots/desktop_hero.png)
+![Desktop Services](./assets/screenshots/desktop_services.png)
 
 ### Mobile
 
 <p align="center">
-  <img src="assets/screenshots/mobile_hero.png" width="300" />
-  <img src="assets/screenshots/mobile_menu.png" width="300" />
+  <img src="./assets/screenshots/mobile_hero.png" width="300" />
+  <img src="./assets/screenshots/mobile_menu.png" width="300" />
 </p>
 
 ### Demonstração de Responsividade e Animações
 
-![Demo Video](assets/screenshots/demo.webp)
+![Demo Video](./assets/screenshots/demo.webp)
 
 ---
 
